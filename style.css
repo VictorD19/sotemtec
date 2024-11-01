@@ -202,6 +202,31 @@ body {
   font-weight: 300;
   line-height: 22px;
 }
+.tituloSecao {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.titulo-sessao {
+  font-size: 30px;
+  font-weight: 700;
+}
+.titulo-projeto {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.descricao-projeto,
+.descricao-sescao {
+  margin-top: 1rem;
+  color: #4b4b4b;
+  font-size: 18px;
+  line-height: 25px;
+}
+.descricao-sescao {
+  width: 50%;
+}
 @media only screen and (max-width: 600px) {
   body {
     /* background-image: url("./assets/fundo-mobile.png"); */
@@ -229,7 +254,9 @@ body {
   }
   .card-servico p {
     font-size: 20px;
-  
+  }
+  .descricao-sescao {
+    width: 100%;
   }
 }
 
@@ -272,3 +299,44 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 125;
 }
+
+/* #region */
+.item img {
+  width: 100%;
+}
+.aviso-projeto {
+  background: #99c24d;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+  color: #fff;
+}
+.aviso-projeto h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.aviso-projeto p {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+  width: 60%;
+  margin: auto;
+}
+
+.aviso-projeto button {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  font-weight: 600;
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .aviso-projeto p {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+/* #endregion */
