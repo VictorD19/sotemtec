@@ -167,7 +167,8 @@ body {
 .cta:hover {
   background: #769b32;
 }
-.sessao-2 {
+.sessao-2,
+.sessao {
   background: #f3f6f8;
   margin-top: -3rem;
   z-index: 3333;
@@ -238,7 +239,8 @@ body {
     font-size: 2.6rem;
   }
   .cta {
-    font-size: 1em;
+    font-size: 20px;
+    color: ;
     width: 100%;
   }
   .imagen-principal {
@@ -338,5 +340,42 @@ body {
     width: 100%;
     margin-bottom: 1.5rem;
   }
+}
+.titulo-footer {
+  font-size: 25px;
+  font-weight: 800;
+}
+.accordion-button {
+  line-height: 25px;
+  font-weight: 400;
+}
+.accordion-body {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.footer {
+  background: #99c24d;
+}
+
+.subTitulo-footer{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+
+}
+
+.frase{
+  font-weight: 600;
+}
+.redes-sociais a{
+  text-decoration: none !important;
+  border: 1px solid #7c7c7c;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background: rgba(3, 90, 10, 0.3);
+  cursor: pointer;
+
 }
 /* #endregion */
