@@ -240,7 +240,7 @@ body {
   }
   .cta {
     font-size: 20px;
-    color: ;
+
     width: 100%;
   }
   .imagen-principal {
@@ -359,23 +359,32 @@ body {
   background: #99c24d;
 }
 
-.subTitulo-footer{
+.subTitulo-footer {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 0.5rem;
-
 }
 
-.frase{
+.frase {
   font-weight: 600;
 }
-.redes-sociais a{
+.redes-sociais a {
   text-decoration: none !important;
   border: 1px solid #7c7c7c;
   border-radius: 50%;
   padding: 0.5rem;
   background: rgba(3, 90, 10, 0.3);
   cursor: pointer;
-
+}
+.paragrafos {
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 300;
+}
+.historia img {
+  width: 100%;
+  border-radius: 10px;
+ 
+  margin-bottom: 1rem;
 }
 /* #endregion */
