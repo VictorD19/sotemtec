@@ -15,6 +15,8 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+   
+    <link rel="preload" as="image" href="assets/pc-3.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,31 +28,40 @@
   <body>
     <div class="container-main">
       <div class="pt-3">
-        <img src="./assets/logo-horizontal.png" width="250" />
+        <img
+          src="./assets/logo-horizontal.png"
+          alt="logo principa"
+          width="250"
+          height="32"
+        />
       </div>
-      <div class="row p-0 m-0 sessao-1 mt-5">
+      <div class="row p-0 m-0 sessao-1 mt-5 hidden slide-up">
         <div class="col-12 col-md-6">
           <div class="d-flex flex-column h-100 justify-content-center">
             <div>
-              <h1 class="headline mt-5">
+              <h1 class="headline mt-5 animate__animated animate__fadeInDown">
                 Fazemos sua idea se tornar realidade
               </h1>
-              <p class="subheadline pt-3 archivo-300">
+              <p
+                class="subheadline pt-3 archivo-300 animate__animated animate__fadeInDown"
+              >
                 Mais do que tirar sua ideia do papel, criamos um caminho
                 completo para transformá-la em resultados reais, com soluções
                 digitais personalizadas e um compromisso total com prazos e
                 qualidade
               </p>
-              <button class="cta mt-5">Quero começar meu projeto</button>
+              <button class="cta mt-5 animate__animated animate__fadeInDown">
+                Quero começar meu projeto
+              </button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6">
           <img
-            src="./assets/pc-3.png"
+            src="./assets/pc-3.webp"
             width="1602"
             alt="Imagem 1"
-            class="w-100 imagen-principal"
+            class="w-100 imagen-principal animate__animated animate__fadeInDown"
           />
         </div>
       </div>
@@ -165,7 +176,7 @@
       </div>
     </div>
 
-    <div class="container-main py-5 px-3">
+    <div class="container-main py-5 px-3 hidden fade-in">
       <div class="row historia">
         <div class="col-12 col-md-6">
           <h1 class="titulo-sessao">Nossa História</h1>
@@ -187,11 +198,16 @@
           </p>
         </div>
         <div class="col-12 col-md-6">
-          <img src="assets/sotemtec.jpg" />
+          <img
+            loading="lazy"
+            alt="imagem sotemtec"
+            src="assets/sotemtec.jpg"
+            class="imagem-sotemtec"
+          />
         </div>
       </div>
     </div>
-    <div class="sessao mt-0">
+    <div class="sessao mt-0 hidden slide-up">
       <div class="container-main py-5 px-4">
         <h1 class="titulo-sessao">Conheça nossos <br />cases</h1>
         <p class="descricao-sescao mb-5">
@@ -200,7 +216,11 @@
         </p>
         <div class="item row align-items-center">
           <div class="col-12 col-md-6">
-            <img src="./assets/modelos/modelo-5.png" alt="modelo" />
+            <img
+              loading="lazy"
+              src="./assets/modelos/modelo-5.png"
+              alt="modelo"
+            />
           </div>
           <div class="col-12 col-md-6">
             <h2 class="titulo-projeto">Plataforma: Black Optimus</h2>
@@ -217,7 +237,11 @@
         </div>
         <div class="item row align-items-center">
           <div class="col-12 col-md-6">
-            <img src="./assets/modelos/modelo-6.png" alt="modelo" />
+            <img
+              loading="lazy"
+              src="./assets/modelos/modelo-6.png"
+              alt="modelo"
+            />
           </div>
           <div class="col-12 col-md-6">
             <h2 class="titulo-projeto">Site Institucional: Solar Delta</h2>
@@ -235,7 +259,11 @@
 
         <div class="item row align-items-center">
           <div class="col-12 col-md-6">
-            <img src="./assets/modelos/modelo-1.png" alt="modelo" />
+            <img
+              loading="lazy"
+              src="./assets/modelos/modelo-1.png"
+              alt="modelo"
+            />
           </div>
           <div class="col-12 col-md-6">
             <h2 class="titulo-projeto">
@@ -254,7 +282,11 @@
 
         <div class="item row align-items-center">
           <div class="col-12 col-md-6">
-            <img src="./assets/modelos/modelo-2.png" alt="modelo" />
+            <img
+              loading="lazy"
+              src="./assets/modelos/modelo-2.png"
+              alt="modelo"
+            />
           </div>
           <div class="col-12 col-md-6">
             <h2 class="titulo-projeto">
@@ -274,7 +306,11 @@
 
         <div class="item row align-items-center">
           <div class="col-12 col-md-6">
-            <img src="./assets/modelos/modelo-3.png" alt="modelo" />
+            <img
+              loading="lazy"
+              src="./assets/modelos/modelo-3.png"
+              alt="modelo"
+            />
           </div>
           <div class="col-12 col-md-6">
             <h2 class="titulo-projeto">
@@ -303,7 +339,56 @@
         </div>
       </div>
     </div>
-    <div class="">
+
+    <div class="container-main py-5 px-3 hidden fade-in">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1 class="titulo-sessao">Formulario de contato</h1>
+          <p class="descricao-sescao w-75">
+            Entre em contato conosco preenchendo o formulário. Nossa equipe está
+            pronta para tirar suas dúvidas, discutir seu projeto ou fornecer
+            mais informações sobre nossos serviços. Estamos aqui para ajudar!
+          </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <form onsubmit="enviarFormulario(event)">
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" required />
+            </div>
+            <div class="mb-3">
+              <label for="celular" class="form-label">Celular</label>
+              <input type="text" required class="form-control" id="celular" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input required type="text" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="projeto" class="form-label"
+                >Nome da empresa / Projeto</label
+              >
+              <input type="text" required class="form-control" id="projeto" />
+            </div>
+            <div class="mb-3">
+              <label for="descricao" class="form-label"
+                >Conte-nos um pouco sobre sua idea</label
+              >
+              <textarea
+                required
+                style="min-height: 10rem"
+                type="text"
+                class="form-control"
+                id="descricao"
+              ></textarea>
+            </div>
+            <button class="cta">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="sessao mt-0 slide-up fade-in">
       <div class="container-main py-5 px-4">
         <h1 class="titulo-sessao mb-5">
           Perguntas <br />
@@ -456,10 +541,17 @@
         </div>
       </div>
     </div>
-    <footer class="footer hidden-print">
+
+    <footer class="footer hidden-print slide-up">
       <div class="row m-0 py-5 px-3 justify-content-between">
         <div class="col-12 col-md-4 py-5">
-          <img src="assets/logo-2.png" class="mb-3" width="300" />
+          <img
+            alt="logo2"
+            loading="lazy"
+            src="assets/logo-2.png"
+            class="mb-3"
+            width="300"
+          />
           <p>
             Sotemtec © 2024. Todos os direitos reservados. Política de
             Privacidade
@@ -574,21 +666,12 @@
           </div>
 
           <p class="mt-5 frase">
-            Estamos esperando você para tornar sua idea possivel!
+            Estamos esperando você para tornar sua idea realidade!
           </p>
         </div>
       </div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
+    <script src="index.js"></script>
   </body>
 </html>

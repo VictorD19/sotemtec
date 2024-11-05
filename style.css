@@ -156,7 +156,7 @@ body {
   background: #99c24d;
   border: none;
   font-size: 1.3rem;
-  padding: 1.5rem 5rem;
+  padding: 1.4rem 5rem;
   border-radius: 5px;
   transition: 0.3s all ease;
   /* color: #fff; */
@@ -240,8 +240,9 @@ body {
   }
   .cta {
     font-size: 20px;
-
     width: 100%;
+    padding: 1.2rem 3rem;
+    min-width: 0;
   }
   .imagen-principal {
     border-radius: 10px;
@@ -312,7 +313,7 @@ body {
   padding: 2rem;
   margin-top: 3rem;
   text-align: center;
-  color: #fff;
+  color: #1c1c1c;
 }
 .aviso-projeto h1 {
   font-size: 30px;
@@ -339,6 +340,14 @@ body {
   .aviso-projeto p {
     width: 100%;
     margin-bottom: 1.5rem;
+    font-size: 20px;
+  }
+  .descricao-sescao {
+    width: 100% !important;
+    margin-bottom: 2rem;
+  }
+  .imagem-sotemtec {
+    margin-top: 1rem;
   }
 }
 .titulo-footer {
@@ -384,7 +393,43 @@ body {
 .historia img {
   width: 100%;
   border-radius: 10px;
- 
+
   margin-bottom: 1rem;
 }
 /* #endregion */
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Classe para elementos animados */
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
+
+.slide-up {
+  animation: slideUp 1s forwards;
+}
+
+/* Classe inicial (elementos ocultos) */
+.hidden {
+  opacity: 0;
+  transform: translateY(20px); /* ou outro efeito inicial */
+}
