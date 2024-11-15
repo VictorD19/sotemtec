@@ -228,6 +228,11 @@ body {
 .descricao-sescao {
   width: 50%;
 }
+@media only screen and (max-width: 1536px){
+  .sessao-2{
+    margin-top: -1rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   body {
     /* background-image: url("./assets/fundo-mobile.png"); */

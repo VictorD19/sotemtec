@@ -50,7 +50,7 @@
                 digitais personalizadas e um compromisso total com prazos e
                 qualidade
               </p>
-              <button class="cta mt-5 animate__animated animate__fadeInDown">
+              <button id="scrollBtn"   class="cta mt-5 animate__animated animate__fadeInDown">
                 Quero começar meu projeto
               </button>
             </div>
@@ -335,12 +335,12 @@
             É aqui que suas ideias se tornam realidade! Nossa equipe transforma
             sua visão em soluções inovadoras com as mais recentes tecnologias.
           </p>
-          <button class="mt-4">Fale conosco</button>
+          <button id="scrollBtnFaleconoco" class="mt-4">Fale conosco</button>
         </div>
       </div>
     </div>
 
-    <div class="container-main py-5 px-3 hidden fade-in">
+    <div class="container-main py-5 px-3 hidden fade-in" id="formularioContato">
       <div class="row">
         <div class="col-12 col-md-6">
           <h1 class="titulo-sessao">Formulario de contato</h1>
@@ -349,6 +349,7 @@
             pronta para tirar suas dúvidas, discutir seu projeto ou fornecer
             mais informações sobre nossos serviços. Estamos aqui para ajudar!
           </p>
+          <p>Nosso prazo de resposta é até 24hrs</p>
         </div>
         <div class="col-12 col-md-6">
           <form onsubmit="enviarFormulario(event)">
@@ -382,7 +383,7 @@
                 id="descricao"
               ></textarea>
             </div>
-            <button class="cta">Enviar</button>
+            <button class="cta" type="submit">Enviar</button>
           </form>
         </div>
       </div>
